@@ -1,0 +1,888 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Montserrat:wght@300&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #003133;
+	overflow: scroll;
+}
+
+main{
+	width: 90%;
+	height: 700px;
+	background-color: #c2b6fc;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+	width: 100%;
+	height: 120px;
+	background-color: #161d1d;
+}
+
+#tcabecera{
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	margin-left: 2%;
+	padding: 4%;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+nav{
+	background-color: #161d1d;
+	width: 100%;
+	height: 5%;
+}
+
+#menu{
+	margin-left: 35%;
+}
+
+#menu li{
+	display: inline;
+}
+
+#menu li a{
+	font-size: 17px;
+	text-decoration: none;
+	margin-left: 2%;
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0.5%;
+}
+
+section{
+	width: 100%;
+	height: 500px;
+	background-image: url(verde1.jpg);
+	background-size: cover;
+}
+
+p{
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	margin-left: 4%;
+	padding: 2%;
+	font-size: 150%;
+}
+
+#principal{
+	padding: 2%;
+	position: relative; top: 35%;
+	font-size: 25px;
+	background-color: rgba(147, 119, 105, 0.8);
+}
+
+footer{
+	width: 100%;
+	height: 80px;
+	background-color: #000000;
+	clear: both;
+}
+
+.logo{
+	margin-left: 30%;
+	position: relative; top: 17%;
+}
+
+.estructura{
+	margin-left: 11%;
+	
+}
+
+.volver{
+	text-decoration: none;
+	color: #C3E584;
+}
+
+h1{
+	font-size: 33px;
+	font-family: 'Chelsea Market', cursive;
+	color: #0c2727;
+	text-align: center;
+	padding: 1.5%;
+}
+
+h4{
+	font-size: 23px;
+	font-family: 'Chelsea Market', cursive;
+	color: #184e4e;
+	text-align: center;
+}
+
+#pdf{
+	margin-left: 29%;
+}
+
+#sitio{
+	width: 100%;
+	height: 1500px;
+}
+
+.galeria{
+	margin-left: 3%;
+	padding: 1%;
+}
+
+.galeriados{
+	margin-left: 2%;
+	padding: 0.5%;
+}
+
+.galeriatres{
+	margin-right: 3%;
+	margin-left: 2%;
+	padding: 1%;
+}
+
+.galeriacua{
+	margin-left: 2%;
+	padding: 0.5%;
+}
+
+.galeriacinco{
+	margin-left: 3%;
+	padding: 0.5%;
+	margin-bottom: 10%;
+}
+
+
+/* COMIENZAN LOS CODIGOS CELULAR */
+
+
+/* Celular */
+@media (min-width: 570px) and (max-width: 767px)
+{
+
+main{
+	width: 100%;
+	height: 700px;
+	background-color: #c2b6fc;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+	width: 100%;
+	height: 110px;
+	background-color: #161d1d;
+}
+
+#tcabecera{
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	margin-left: 4%;
+	padding: 7%;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+nav{
+	background-color: #161d1d;
+	width: 100%;
+	height: 5%;
+}
+
+#menu{
+	margin-left: 30%;
+}
+
+#menu li{
+	display: inline;
+}
+
+#menu li a{
+	font-size: 15px;
+	text-decoration: none;
+	margin-left: 2%;
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0.5%;
+}
+
+section{
+	width: 100%;
+	height: 800px;
+	background-image: url(verde1.jpg);
+	background-size: cover;
+}
+
+p{
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	margin-left: 4%;
+	padding: 2%;
+	font-size: 150%;
+}
+
+#principal{
+	padding: 2%;
+	position: relative; top: 35%;
+	font-size: 20px;
+	background-color: rgba(147, 119, 105, 0.8);
+}
+
+footer{
+	width: 100%;
+	height: 80px;
+	background-color: #000000;
+	clear: both;
+}
+
+.logo{
+	margin-left: 18%;
+	position: relative; top: 17%;
+}
+
+.estructura{
+	margin-left: 10%;
+	padding: 2%;
+}
+
+.volver{
+	text-decoration: none;
+	color: #C3E584;
+	font-size: 18px;
+}
+
+h1{
+	font-size: 22px;
+	font-family: 'Chelsea Market', cursive;
+	color: #0c2727;
+	text-align: center;
+	padding: 3%;
+}
+
+h4{
+	font-size: 19px;
+	font-family: 'Chelsea Market', cursive;
+	color: #184e4e;
+	text-align: center;
+}
+
+#pdf{
+	margin-left: 2%;
+	padding: 10%;
+}
+
+#sitio{
+	width: 100%;
+	height: 2400px;
+}
+
+.galeria{
+	margin-left: 1%;
+	padding: %;
+}
+
+.galeriados{
+	margin-left: 2%;
+	padding: 0.5%;
+}
+
+.galeriatres{
+	margin-right: 1%;
+	margin-left: 2%;
+	padding: 1%;
+}
+
+.galeriacua{
+	margin-left: 2%;
+	padding: 0.5%;
+}
+
+.galeriacinco{
+	margin-left: 3%;
+	padding: 0.5%;
+	margin-bottom: 10%;
+}
+}
+
+
+/* COMIENZAN LOS CODIGOS TABLET */
+
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) 
+{
+
+
+header{
+	width: 100%;
+	height: 120px;
+	background-color: #161d1d;
+}
+
+#tcabecera{
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	margin-left: 4%;
+	padding: 6%;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+nav{
+	background-color: #161d1d;
+	width: 100%;
+	height: 5%;
+}
+
+#menu{
+	margin-left: 30%;
+}
+
+#menu li{
+	display: inline;
+}
+
+#menu li a{
+	font-size: 15px;
+	text-decoration: none;
+	margin-left: 2%;
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0.5%;
+}
+
+section{
+	width: 100%;
+	height: 800px;
+	background-image: url(verde1.jpg);
+	background-size: cover;
+}
+
+p{
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	margin-left: 4%;
+	padding: 2%;
+	font-size: 150%;
+}
+
+#principal{
+	padding: 2%;
+	position: relative; top: 35%;
+	font-size: 20px;
+	background-color: rgba(147, 119, 105, 0.8);
+}
+
+footer{
+	width: 100%;
+	height: 80px;
+	background-color: #000000;
+	clear: both;
+}
+
+.logo{
+	margin-left: 22%;
+	position: relative; top: 17%;
+}
+
+.estructura{
+	margin-left: 17%;
+	padding: 2%;
+}
+
+.volver{
+	text-decoration: none;
+	color: #C3E584;
+	font-size: 20px;
+}
+
+h1{
+	font-size: 25px;
+	font-family: 'Chelsea Market', cursive;
+	color: #0c2727;
+	text-align: center;
+	padding: 3%;
+}
+
+h4{
+	font-size: 20px;
+	font-family: 'Chelsea Market', cursive;
+	color: #184e4e;
+	text-align: center;
+}
+
+#pdf{
+	margin-left: 9%;
+	position: relative; top: 10%;
+}
+
+#sitio{
+	width: 100%;
+	height: 2500px;
+}
+
+.galeria{
+	margin-left: 10%;
+	padding: %;
+}
+
+.galeriados{
+	margin-left: 8%;
+	margin-bottom: 2%;
+	
+}
+
+.galeriatres{
+	margin-right: 1%;
+	margin-left: 2%;
+	padding: 1%;
+}
+
+.galeriacua{
+	margin-left: 2%;
+	padding: 0.5%;
+}
+
+.galeriacinco{
+	margin-left: 8%;
+	
+}
+}
+
+
+
+/* COMIENZAN LOS CODIGOS L */
+
+
+@media (min-width: 992px) and (max-width: 1199px)
+
+{
+
+header{
+	width: 100%;
+	height: 120px;
+	background-color: #161d1d;
+}
+
+#tcabecera{
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	margin-left: 2%;
+	padding: 4%;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+nav{
+	background-color: #161d1d;
+	width: 100%;
+	height: 5%;
+}
+
+#menu{
+	margin-left: 32%;
+}
+
+#menu li{
+	display: inline;
+}
+
+#menu li a{
+	font-size: 17px;
+	text-decoration: none;
+	margin-left: 2%;
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0.5%;
+}
+
+section{
+	width: 100%;
+	height: 830px;
+	background-image: url(verde1.jpg);
+	background-size: cover;
+}
+
+p{
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	margin-left: 4%;
+	padding: 2%;
+	font-size: 20%;
+}
+
+#principal{
+	padding: 2%;
+	position: relative; top: 35%;
+	font-size: 20px;
+	background-color: rgba(147, 119, 105, 0.8);
+}
+
+footer{
+	width: 100%;
+	height: 80px;
+	background-color: #000000;
+	clear: both;
+}
+
+.logo{
+	margin-left: 27%;
+	position: relative; top: 17%;
+}
+
+.estructura{
+	margin-left: 23%;
+	padding: 2%;
+}
+
+.volver{
+	text-decoration: none;
+	color: #C3E584;
+	font-size: 20px;
+}
+
+h1{
+	font-size: 30px;
+	font-family: 'Chelsea Market', cursive;
+	color: #0c2727;
+	text-align: center;
+	padding: 2%;
+}
+
+h4{
+	font-size: 23px;
+	font-family: 'Chelsea Market', cursive;
+	color: #184e4e;
+	text-align: center;
+}
+
+#pdf{
+	margin-left: 18%;
+	margin-top: 10%;
+}
+
+#sitio{
+	width: 100%;
+	height: 2500px;
+}
+
+.galeria{
+	margin-left: 18%;
+	padding: %;
+}
+
+.galeriados{
+	margin-left: 16%;
+	
+}
+
+.galeriatres{
+	margin-left: 2%;
+	padding: 1%;
+}
+
+.galeriacua{
+	margin-left: 2%;
+	padding: 0.5%;
+}
+
+.galeriacinco{
+	margin-left: 18%;
+	padding: 0.5%;
+	
+}
+}
+
+
+
+/* COMIENZAN LOS CODIGOS XL */
+
+
+@media (min-width: 1200px) and (max-width: 1390px)
+{ 
+
+header{
+	width: 100%;
+	height: 120px;
+	background-color: #161d1d;
+}
+
+#tcabecera{
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	margin-left: 2%;
+	padding: 4%;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+nav{
+	background-color: #161d1d;
+	width: 100%;
+	height: 5%;
+}
+
+#menu{
+	margin-left: 32%;
+}
+
+#menu li{
+	display: inline;
+}
+
+#menu li a{
+	font-size: 17px;
+	text-decoration: none;
+	margin-left: 2%;
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0.5%;
+}
+
+section{
+	width: 100%;
+	height: 500px;
+	background-image: url(verde1.jpg);
+	background-size: cover;
+}
+
+p{
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	margin-left: 4%;
+	padding: 2%;
+	font-size: 150%;
+}
+
+#principal{
+	padding: 2%;
+	position: relative; top: 35%;
+	font-size: 23px;
+	background-color: rgba(147, 119, 105, 0.8);
+}
+
+footer{
+	width: 100%;
+	height: 80px;
+	background-color: #000000;
+	clear: both;
+}
+
+.logo{
+	margin-left: 27%;
+	position: relative; top: 17%;
+}
+
+.estructura{
+	margin-left: 3%;
+	padding: 2%;
+}
+
+.volver{
+	text-decoration: none;
+	color: #C3E584;
+	font-size: 23px;
+}
+
+h1{
+	font-size: 33px;
+	font-family: 'Chelsea Market', cursive;
+	color: #0c2727;
+	text-align: center;
+	padding: 1.5%;
+}
+
+h4{
+	font-size: 25px;
+	font-family: 'Chelsea Market', cursive;
+	color: #184e4e;
+	text-align: center;
+}
+
+#pdf{
+	margin-left: 24%;
+}
+
+#sitio{
+	width: 100%;
+	height: 2500px;
+}
+
+.galeria{
+	margin-left: 22%;
+}
+
+.galeriados{
+	margin-left: 20%;
+	
+}
+
+.galeriatres{
+	margin-left: 2%;
+	padding: 1%;
+}
+
+.galeriacua{
+	margin-left: 2%;
+	padding: 0.5%;
+}
+
+.galeriacinco{
+	margin-left: 19%;
+	padding: 0.5%;
+	
+}
+}
+
+
+
+/* COMIENZAN LOS CODIGOS XXL */
+
+@media (min-width: 1400px)
+{
+
+header{
+	width: 100%;
+	height: 120px;
+	background-color: #161d1d;
+}
+
+#tcabecera{
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	margin-left: 2%;
+	padding: 4%;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+nav{
+	background-color: #161d1d;
+	width: 100%;
+	height: 5%;
+}
+
+#menu{
+	margin-left: 35%;
+}
+
+#menu li{
+	display: inline;
+}
+
+#menu li a{
+	font-size: 17px;
+	text-decoration: none;
+	margin-left: 2%;
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0.5%;
+}
+
+section{
+	width: 100%;
+	height: 500px;
+	background-image: url(verde1.jpg);
+	background-size: cover;
+}
+
+p{
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	margin-left: 4%;
+	padding: 2%;
+	font-size: 150%;
+}
+
+#principal{
+	padding: 2%;
+	position: relative; top: 35%;
+	font-size: 25px;
+	background-color: rgba(147, 119, 105, 0.8);
+}
+
+footer{
+	width: 100%;
+	height: 80px;
+	background-color: #000000;
+	clear: both;
+}
+
+.logo{
+	margin-left: 30%;
+	position: relative; top: 17%;
+}
+
+.estructura{
+	margin-left: 11%;
+	
+}
+
+.volver{
+	text-decoration: none;
+	color: #C3E584;
+}
+
+h1{
+	font-size: 33px;
+	font-family: 'Chelsea Market', cursive;
+	color: #0c2727;
+	text-align: center;
+	padding: 1.5%;
+}
+
+h4{
+	font-size: 23px;
+	font-family: 'Chelsea Market', cursive;
+	color: #184e4e;
+	text-align: center;
+}
+
+#pdf{
+	margin-left: 29%;
+}
+
+#sitio{
+	width: 100%;
+	height: 1500px;
+}
+
+.galeria{
+	margin-left: 1%;
+	padding: 1%;
+}
+
+.galeriados{
+	margin-left: 1%;
+	padding: 0.5%;
+}
+
+.galeriatres{
+	margin-right: 1%;
+	margin-left: 2%;
+	padding: 1%;
+}
+
+.galeriacua{
+	margin-left: 1%;
+	padding: 0.5%;
+}
+
+.galeriacinco{
+	margin-left: 3%;
+	padding: 0.5%;
+	margin-bottom: 10%;
+}
+}
